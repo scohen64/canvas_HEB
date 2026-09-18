@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Canvas Grading Snapshot</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Canvas Grading Snapshot</h1>
+    <span id="snapshotTime" class="snapshot-time"></span>
+  </header>
+
+  <p class="notice">
+    View-only snapshot, generated at a point in time — not live. Student names have been
+    replaced with anonymous IDs before publishing. Grades and comments are not editable
+    here; make changes in Canvas itself.
+  </p>
+
+  <nav id="courseTabs"></nav>
+
+  <main id="content">
+    <p class="loading">Loading snapshot…</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
